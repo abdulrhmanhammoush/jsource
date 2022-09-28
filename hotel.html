@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J|SOURCE</title>
+    <link rel="icon" href="logo1.png">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="hotel.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="menu" id="menu">
+            <i style="color: red;" class="fa fa-times" onclick="hide_menu()"></i>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#programs">Programs</a></li>
+            <li><a href="index.html#connect">Connect </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="show_menu()"></i>
+    </header>
+
+    <div class="hotel">
+        <div class="img-hotel">
+            <img src="Image/1-img-hotel.png" alt="">
+        </div>
+        <div class="hotel-main">
+            <p>You have a hotel with great services <br>Are you missing a program to manage your hotel?
+            <br><span class="hotel-tit">If the answer is yes, then you are in the right place</span> </p>
+        </div>
+    </div>
+
+    <div class="hotel-office">
+        <div class="title-office">
+            <div>
+                <h2>Hotel Program</h2>
+                <p>
+                    <ul>
+                        <li>front office
+                            <ul>
+                                <li>Reservations</li>
+                                <li>room management</li>
+                                <li>phone management system</li>
+                                <li>Linked to points of sale (restaurants - bars ...)</li>
+                            </ul>
+                        </li>
+                        <li>back office
+                            <ul>
+                                <li>Accounting</li>
+                                <li>Daily Report</li>
+                                <li>inventory control</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="img-office">
+            <img src="Image/2-img-hotel.png" alt="">
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="img-services">
+            <img src="Image/img-services.png" alt="">
+        </div>
+        <div class="title-services">
+            <div>
+                <h2>The hotel management system has several advantages, including:</h2>
+                <p>
+                    All programs communicate with each other through the network, which ensures reliability in
+                    Work and a great speed of completion, and thus a higher profitability for workers on the program
+                    It relies on the latest global databases and network system based on
+                    The server, as the information is stored in the server and not in the terminals
+                    The feature ensures information security in terms of information loss for any reason or entry
+                    An intruder and tampered with one of the facility's devices
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="manage">
+        <div class="title-manage">
+            <div>
+                <p>
+                It is an application program that runs on a web server
+                Unlike computer-based software that is stored locally on the device's operating system (OS)
+                Web applications are accessed by the user through a browser
+                Web with an Internet connection or any network connection.
+                </p>
+            </div>
+        </div>
+        <div class="img-manage">
+            <img src="Image/4-img-hotel.png" alt="">
+        </div>
+    </div>        
+    <div class="security">
+        <div class="img-security">
+            <img src="Image/5-img-hotel.png" alt="">
+        </div>
+        <div class="title-security">
+            <div>
+                <h2>Information Security:</h2>
+                <p>
+                    Encrypt passwords, all passwords saved on the system are encrypted so that
+                    The administration cannot see the passwords of the centers and agents, in addition to that
+                    All remittances data can be accessed according to the available powers
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="icon">
+            <a href="https://wa.me/qr/HXXKS3XE2YBVH1"><i class="fa fa-whatsapp"></i></a>
+            <a href="@AbdulrhmanHammoush"><i class="fa fa-telegram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100024596087242"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="resource">
+            <h3>all rights are save for Java Source company</h3>
+        </div>
+    </div>         
+
+
+    <script>
+        var nav_links=document.getElementById("menu");
+        
+        function show_menu(){
+            nav_links.style.right="0";
+            nav_links.style.display="block";
+        }   
+        function hide_menu(){
+            nav_links.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
